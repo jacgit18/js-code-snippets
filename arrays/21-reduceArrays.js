@@ -8,6 +8,9 @@ const numbers = [100, 300, 500, 70];
 
 // reduce method
 const sum =numbers.reduce((accummulator, value) => accummulator + value);
+// If you omit the initial value, the total will by default start from the first item in the array.
+
+
 
 console.log(sum);
 
